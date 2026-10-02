@@ -24,7 +24,7 @@ export default function Navbar() {
     return (
         <nav id="navbar" className="flex items-center justify-between px-6 m-0 relative">
             <div className="flex items-center md:w-1/6">
-                <Image className="rounded-lg" src="/images/7459344.jpg" alt="Logo" width={100} height={100} />
+                <Image className="h-10 w-auto" src="/images/petro-pieces-logo.png" alt="Logo" width={250} height={97} />
             </div>
 
             <button

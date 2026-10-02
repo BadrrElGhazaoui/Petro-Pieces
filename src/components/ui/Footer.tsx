@@ -10,7 +10,7 @@ export default function Footer() {
             <footer className="relative mx-auto container mb-5">
                 <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-4 ">
                     <div className="text-center">
-                        <Image width={100} height={100} className="mx-auto filter bg-secondary scale md:w-auto md:h-auto w-32" src="/images/7459344.jpg" alt="" />
+                        <Image width={100} height={100} className="mx-auto filter bg-secondary scale md:w-auto md:h-auto w-32" src="/images/petro-pieces-logo.png" alt="" />
                         <ul className="flex justify-center gap-4">
                             {[faInstagram, faWhatsapp, faTelegram, faGithub].map((icon, index) => (
                                 <a key={index} href="#" aria-label="Social link" className="flex justify-center items-center size-12 border border-text-primary rounded-full">

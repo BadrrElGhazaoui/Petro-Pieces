@@ -12,7 +12,7 @@ export default function Header() {
                     Building Tomorrow&apos;s Infrastructure with Innovation and Excellence
                 </h1>
                 <div className="w-3/4 md:w-1/4 m-auto text-center mt-6 md:mt-0">
-                    <Image className="w-40 md:w-80 mx-auto" src="/images/7459344.jpg" alt="Header Image" width={200} height={200} />
+                    <Image className="w-32 md:w-56 mx-auto" src="/images/petro-pieces-logo.png" alt="Header Image" width={250} height={97} />
                 </div>
             </div>
             <div className="flex flex-col lg:flex-row justify-between items-center relative w-full xl:mt-0 md:mt-4">
