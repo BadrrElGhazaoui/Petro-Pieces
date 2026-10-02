@@ -11,8 +11,8 @@ export default function Header() {
                 <h1 className="font-black text-4xl md:text-5xl lg:text-6xl md:w-3/5 leading-16 text-center md:text-left">
                     Building Tomorrow&apos;s Infrastructure with Innovation and Excellence
                 </h1>
-                <div className="w-3/4 md:w-1/4 m-auto text-center mt-6 md:mt-0">
-                    <Image className="w-32 md:w-56 mx-auto" src="/images/petro-pieces-logo.png" alt="Header Image" width={250} height={97} />
+                <div className="w-3/4 md:w-2/5 flex justify-center items-center mt-6 md:mt-0">
+                    <Image className="w-48 md:w-80" src="/images/petro-pieces-logo.png" alt="Header Image" width={250} height={97} />
                 </div>
             </div>
             <div className="flex flex-col lg:flex-row justify-between items-center relative w-full xl:mt-0 md:mt-4">
