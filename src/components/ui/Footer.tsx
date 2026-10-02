@@ -1,4 +1,5 @@
 import Image from "next/image";
+  import Link from "next/link";
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
 import { faInstagram, faWhatsapp, faTelegram, faGithub } from '@fortawesome/free-brands-svg-icons';
 
@@ -22,7 +23,7 @@ export default function Footer() {
                     <div className="text-center lg:text-left md:mt-0 mt-4">
                         <h1 className="font-bold text-lg sm:text-xl">Useful Links</h1>
                         <ul className="mt-3 space-y-2 sm:space-y-3">
-                            <li><a href="/about">About Us</a></li>
+                            <li><Link href="/about">About Us</Link></li>
                             <li><a href="#how-we-work">How we work</a></li>
                             <li><a href="#terms">Terms & Conditions</a></li>
                             <li><a href="#faq">FAQ</a></li>
@@ -32,9 +33,9 @@ export default function Footer() {
                     <div className="text-center lg:text-left lg:mt-0 mt-4">
                         <h1 className="font-bold text-lg sm:text-xl">Content</h1>
                         <ul className="mt-3 space-y-2 sm:space-y-3">
-                            <li><a href="/.">Home</a></li>
+                            <li><Link href="/">Home</Link></li>
                             <li><a href="#menu">Browse Menu</a></li>
-                            <li><a href="/blog">Blog</a></li>
+                            <li><Link href="/blog">Blog</Link></li>
                         </ul>
                     </div>
 

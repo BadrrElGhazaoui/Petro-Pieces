@@ -215,7 +215,7 @@ export const Compare = ({
             >
               <img
                 alt="first image"
-                src={firstImage}
+                src={`${process.env.NEXT_PUBLIC_BASE_PATH ?? ""}${firstImage}`}
                 className={cn(
                   "absolute inset-0 z-20 rounded-lg flex-shrink-0 w-full h-full select-none",
                   firstImageClassName
@@ -236,7 +236,7 @@ export const Compare = ({
               secondImageClassname
             )}
             alt="second image"
-            src={secondImage}
+            src={`${process.env.NEXT_PUBLIC_BASE_PATH ?? ""}${secondImage}`}
             draggable={false} // Disable image dragging
           />
         ) : null}
